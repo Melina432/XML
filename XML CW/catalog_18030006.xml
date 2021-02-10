@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_18030006.css"?>
+<CarStore>
+    <ShopInformation>
+        <NameofShop>Name: Steals n' Deals</NameofShop>
+        <ShopAddress>Address: Lazimpat,Kathmandu</ShopAddress>
+        <TelephoneNumber>Phone No: 1124-8675-2436</TelephoneNumber>
+        <WebsiteAddress>E-mail: Steals n'deals11@gmail.com</WebsiteAddress>
+        <Logo xmlns:xs="http://www.w3.org/2001/XMLSchema">
+        </Logo>
+            <Item>
+                <ItemNumber>ItemNumber: 01</ItemNumber>
+                <CarImg id="Img1"/>
+                <BrandName>BrandName: Acura RDX</BrandName>
+                <Quantity>Quantity: 4</Quantity>
+                <Price>Price: $40,000</Price>
+                <Description>
+                Description of Car
+                    <Manufacturer>Manufacturer: American Honda Motor Co., Inc</Manufacturer>
+                    <CarTypes>Electric</CarTypes>
+                    <Color>Color: Basque Red Pearl li</Color>
+                    <Dimension>Dimension: The 2012 Acura RDX offers sharp handeling at an appealing price tag,but other small luxury crossovers will likely prove more desirable overall. Acura RDX SUV offers the following pros like sporty handling, compelling performance, well-eqquiped, relatively low price tag. Acura RDX SUV drwabacks are firm ride, lacks a certain luxury exterior and feel, missing some top-end luxury features.</Dimension>               
+                    <Features>
+                    Features of Car
+                        <DriveType> DriveType: All wheel drive</DriveType>
+                        <Engine>Engine: 240-hp, 2.3-liter I-4 (premium)</Engine>
+                        <Seats>Seats: 5</Seats>
+                        <Capacity>Capacity: 1500 lbs</Capacity>
+                    </Features>
+                </Description>
+            </Item>
+            <Item>
+                <ItemNumber>ItemNumber: 02</ItemNumber>
+                <CarImg id="Img2"/>
+                <BrandName>BrandName: Lamborghini Huracan</BrandName>
+                <Quantity>Quantity: 2</Quantity>
+                <Price>Price: $250,000</Price>
+                <Description>
+                 Description of Car
+                    <Manufacturer>Manufacturer: Ferruccio Lamborghini</Manufacturer>
+                    <CarTypes>Fuel</CarTypes>
+                    <Color>Color: Verde Mantis</Color>
+                    <Dimension>Dimension: Lamborghini Huracan dimensions 4520 mm in length, 1933 mm in width and 1165 mm in height, with a wheelbase of 2620 mm, you can also check Lamborghini Huracan dimension converted into CM (centimeter), Inches and feet for all variants of the car.</Dimension>               
+                    <Features>
+                    Features of Car
+                        <DriveType> DriveType: All wheel drive</DriveType>
+                        <Engine>Engine: 11.24 kmpl, 90-liter</Engine>
+                        <Seats>Seats: 2</Seats>
+                        <Capacity>Capacity: 4520mm</Capacity>
+                    </Features>
+                </Description>
+            </Item>
+            <Item>
+                <ItemNumber>ItemNumber: 03</ItemNumber>
+                <CarImg id="Img3"/>
+                <BrandName>BrandName: Mercedes-Benz CLA</BrandName>
+                <Quantity>Quantity: 2</Quantity>
+                <Price>Price: $54,000</Price>
+                <Description>
+                 Description of Car
+                    <Manufacturer>Manufacturer: Mercedes-Benz</Manufacturer>
+                    <CarTypes>Fuel</CarTypes>
+                    <Color>Color: Polar Silver</Color>
+                    <Dimension>Dimension: Mercedes-Benz CLA dimensions 4630 mm in length, 1777 mm in width and 1432 mm in height, with a wheelbase of 2699 mm, you can also check Mercedes-Benz CLA dimension converted into CM (centimeter), Inches and feet for all variants of the car.</Dimension>               
+                    <Features>
+                    Features of Car
+                        <DriveType> DriveType: All wheel drive</DriveType>
+                        <Engine>Engine: 23/33 mpg, 13.5 gal I-4 (premium unleaded)</Engine>
+                        <Seats>Seats: 5</Seats>
+                        <Capacity>Cargo Capacity: 11.6 cu.ft</Capacity>
+                    </Features>
+                </Description>
+            </Item>
+            <Item>
+                <ItemNumber>ItemNumber: 04</ItemNumber>
+                <CarImg id="Img4"/>
+                <BrandName>BrandName: Porsche 718 Boxster S Specs</BrandName>
+                <Quantity>Quantity: 1</Quantity>
+                <Price>Price: $72,000</Price>
+                <Description>
+                 Description of Car
+                    <Manufacturer>Manufacturer: Porsche AG</Manufacturer>
+                    <CarTypes>Fuel</CarTypes>
+                    <Color>Color: Guards Red</Color>
+                    <Dimension>Dimension: Porsche 718 Boxster S Specs dimensions 172.4in length, 70.9in Max width, 59.6in Front width, 60.6in Rear width and 50.4in height, with a wheelbase of 97.4in and Ground clearance of 4.3 in.</Dimension>               
+                    <Features>
+                    Features of Car
+                        <DriveType> DriveType: Rear wheel drive</DriveType>
+                        <Engine>Engine: 21/28 mpg, 214.2 gal (premium unleaded)</Engine>
+                        <Seats>Seats: 2</Seats>
+                        <Capacity>Capacity: 1500 lbs</Capacity>
+                    </Features>
+                </Description>
+            </Item>
+            <Item>
+                <ItemNumber>ItemNumber: 05</ItemNumber>
+                <CarImg id="Img5"/>
+                <BrandName>BrandName: Maruti Suzuki Swift</BrandName>
+                <Quantity>Quantity: 5</Quantity>
+                <Price>Price: $15,00</Price>
+                <Description>
+                 Description of Car
+                    <Manufacturer>Manufacturer: Suzuki Motor Corporation</Manufacturer>
+                    <CarTypes>Fuel</CarTypes>
+                    <Color>Color: White</Color>
+                    <Dimension>Dimension: Maruti Suzuki Swift dimensions 3840 mm in length, 1735 mm in width and 1530 mm in height, with a wheelbase of 2450 mm, you can also check Maruti Suzuki Swift dimension converted into CM (centimeter), Inches and feet for all variants of the car.</Dimension>               
+                    <Features>
+                    Features of Car
+                        <DriveType> DriveType: All wheel drive</DriveType>
+                        <Engine>Engine: 20/22 KMPL, 214 ltr</Engine>
+                        <Seats>Seats: 5</Seats>
+                        <Capacity>Capacity: 1500 lbs</Capacity>
+                    </Features>
+                </Description>
+            </Item>
+    </ShopInformation>
+</CarStore>

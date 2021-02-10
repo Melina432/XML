@@ -1,0 +1,74 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CarStore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ShopInformation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="NameofShop"/>
+              <xs:element type="xs:string" name="ShopAddress"/>
+              <xs:element type="xs:string" name="TelephoneNumber"/>
+              <xs:element type="xs:string" name="WebsiteAddress"/>
+              <xs:element type="xs:string" name="Logo"/>
+              <xs:element name="Item" maxOccurs="unbounded" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="ItemNumber"/>
+                    <xs:element name="CarImg">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="id" use="required"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="BrandName"/>
+                    <xs:element type="xs:string" name="Quantity"/>
+                    <xs:element type="xs:string" name="Price"/>
+                    <xs:element name="Description">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="Manufacturer"/>
+                          <xs:element name="CarTypes">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:enumeration value="Electric"/>
+                                <xs:enumeration value="Fuel"/>
+                                <xs:enumeration value="Hybrid"/>
+                              </xs:restriction>
+                            </xs:simpleType>
+							</xs:element>
+                          <xs:element type="xs:string" name="Color"/>
+                          <xs:element type="xs:string" name="Dimension"/>
+                          <xs:element name="Features">
+                            <xs:complexType mixed="true">
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="DriveType"/>
+                                <xs:element type="xs:string" name="Engine"/>
+                                <xs:element name="Seats">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute type="xs:string" name="Seats" use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element type="xs:string" name="Capacity"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
